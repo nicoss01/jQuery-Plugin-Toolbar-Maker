@@ -1,41 +1,37 @@
-== Installation
+Installation
+=======
 
 To use this plugin, you have to load the jQuery Javascript file and the plugin file 'toolbar.jquery.js' in the HEAD section of your HTML page.
 
-----
-<script type="text/Javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script type="text/Javascript" src="/blog/toolbar.jquery.js"></script>
-----
+    <script type="text/Javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/Javascript" src="/blog/toolbar.jquery.js"></script>
 
-== Use
-
+Use
+===
 To correctly use this plugin, you have to create an HTML container which contains the repetition of a tag with a link.
 
 Example :
 
-----
-<div id="test_toolbar">
-<div><a href="#">Link</a></div>
-<div><a href="#">Link</a></div>
-<div><a href="#">Link</a></div>
-<div><a href="#">Link</a></div>
-</div>
-----
+    <div id="test_toolbar">
+        <div><a href="#">Link</a></div>
+        <div><a href="#">Link</a></div>
+        <div><a href="#">Link</a></div>
+        <div><a href="#">Link</a></div>
+    </div>
 
 Then in the Javascript code use this sample code :
 
-----
-$("#test_toolbar').toolbar({
-      width       : '120px',
-      positionH   : 'middle',
-      positionV   : 'bottom',
-      orientation : 'horizontal',
-      activeLink  : false,
-      elements    : 'div'
-});
-----
+    $("#test_toolbar').toolbar({
+          width       : '120px',
+          positionH   : 'middle',
+          positionV   : 'bottom',
+          orientation : 'horizontal',
+          activeLink  : false,
+          elements    : 'div'
+    });
 
-== Available parameters
+Available parameters
+===============
 
 * *elements* : Selectors tags containing links
 * *cssClass* : CSS class to be added to the toolbar
