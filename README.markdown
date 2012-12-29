@@ -47,3 +47,6 @@ Available parameters
 * *hoverTextColor* : Color of text links overflown
 * *activeLink (true|false)* : If this option is active, the link to the url of the page will automatically open layout differently.
 * *activeBackground* : Background color of the link to open page
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/abe70deae4a5a303e24ef328293376a6 "githalytics.com")](http://githalytics.com/nicoss01/jQuery-Plugin-Toolbar-Maker)
