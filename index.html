@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery-plugin-toolbar-maker by nicoss01</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/nicoss01/jQuery-Plugin-Toolbar-Maker">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/nicoss01/jQuery-Plugin-Toolbar-Maker/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/nicoss01/jQuery-Plugin-Toolbar-Maker/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Jquery-plugin-toolbar-maker</h1>
+          <p>jQuery Plugin Toolbar Maker</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/nicoss01">nicoss01</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>To use this plugin, you have to load the jQuery Javascript file and the plugin file 'toolbar.jquery.js' in the HEAD section of your HTML page.</p>
+
+<pre><code>&lt;script type="text/Javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/Javascript" src="/blog/toolbar.jquery.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<h1>
+<a name="use" class="anchor" href="#use"><span class="octicon octicon-link"></span></a>Use</h1>
+
+<p>To correctly use this plugin, you have to create an HTML container which contains the repetition of a tag with a link.</p>
+
+<p>Example :</p>
+
+<pre><code>&lt;div id="test_toolbar"&gt;
+    &lt;div&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;a href="#"&gt;Link&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Then in the Javascript code use this sample code :</p>
+
+<pre><code>$("#test_toolbar').toolbar({
+      width       : '120px',
+      positionH   : 'middle',
+      positionV   : 'bottom',
+      orientation : 'horizontal',
+      activeLink  : false,
+      elements    : 'div'
+});
+</code></pre>
+
+<h1>
+<a name="available-parameters" class="anchor" href="#available-parameters"><span class="octicon octicon-link"></span></a>Available parameters</h1>
+
+<ul>
+<li>
+<em>elements</em> : Selectors tags containing links</li>
+<li>
+<em>cssClass</em> : CSS class to be added to the toolbar</li>
+<li>
+<em>live (true|false)</em> : If you enable this option, the menu returns automatically when resizing the window</li>
+<li>
+<em>width</em> : Width of the toolbar in pixels</li>
+<li>
+<em>height</em> : Height of the toolbar in pixels</li>
+<li>
+<em>positionV</em> : Vertical position of toolbar, available values : top, bottom, middle</li>
+<li>
+<em>positionH</em> : Horizontal position of toolbar, available values : left (gauche), right (droite), middle (milieu)</li>
+<li>
+<em>orientation</em> : Toolbar orientation, available values : horizontal, vertical</li>
+<li>
+<em>background</em> : Background color of toolbar</li>
+<li>
+<em>textColor</em> : Text color of links</li>
+<li>
+<em>hoverBackground</em> : Background color of links overflown</li>
+<li>
+<em>hoverTextColor</em> : Color of text links overflown</li>
+<li>
+<em>activeLink (true|false)</em> : If this option is active, the link to the url of the page will automatically open layout differently.</li>
+<li>
+<em>activeBackground</em> : Background color of the link to open page</li>
+</ul><p><a href="http://githalytics.com/nicoss01/jQuery-Plugin-Toolbar-Maker"><img src="https://cruel-carlota.pagodabox.com/abe70deae4a5a303e24ef328293376a6" alt="githalytics.com alpha" title="githalytics.com"></a></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-15538849-32");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
