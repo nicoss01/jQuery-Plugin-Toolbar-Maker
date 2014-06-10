@@ -1,4 +1,4 @@
-Installation
+Installation [![endorse](https://api.coderwall.com/nicoss01/endorsecount.png)](https://coderwall.com/nicoss01)
 =======
 
 To use this plugin, you have to load the jQuery Javascript file and the plugin file 'toolbar.jquery.js' in the HEAD section of your HTML page.
